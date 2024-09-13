@@ -561,14 +561,144 @@ nav ul li a:hover{
     margin-top: 50px;
 }
 
- .card img{
+.imageoverlay-container{
+    position: relative;
+    overflow: hidden;
+}
+
+.imageoverlay-container img{
+    height: 250px;
     width: 100%;
-    height: 330px;
- }
+    border-radius: 6px;
+}
+
+.imageoverlay-container img:hover{
+    transform: scale(1.5);
+    transition: transform .8s;
+}
+
+.overlay-hearticons{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 40%;
+    overflow: hidden;
+    border-radius: 6px;
+    width: 100%;
+    height:0;
+    transition: .6s ease-in-out;
+}
+
+.overlay-hearticons p {
+    background-color: white;
+    color: #0dcaf0;
+    padding: 6px 10px;
+    border-radius: 50px;
+    opacity: none;
+    position: absolute;
+    font-size: 16px;
+    top: 33%;
+    left: 40%;
+    transform: translate(50%);
+}
+
+.imageoverlay-container:hover .overlay-hearticons{
+    bottom: 0;
+    height: 100%;
+}
+
+.card-body{
+    padding: 10px;
+}
+
+.card .card-body .person-and-days{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card-body .person-and-days p{
+    font-size: 14px;
+    font-weight: 700;
+    color:#303030;
+}
+
+.card .card-body .person-and-days i{
+    margin-right: 10px;
+    color: #0dcaf0;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-title i{
+    margin-right: 10px;
+    color: #0dcaf0;
+}
+
+.card-body #tourpackage-review{
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body #tourpackage-review span{
+    margin-left: 5px;
+}
+
+.card-body #tourpackage-review i{
+    color:yellow;
+    margin-left: 2px;
+}
 
 .card-body #tourpackage-content {
-    font-size: 12px;
-    font-weight: 400;
-    text-align: justify;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
  }
+
+ .tourpackage-booking-button button{
+    padding: 6px 14px;
+    border: 1px solid #0dcaf0;
+    background-color: white;
+    color: #0dcaf0;
+ }
+
+ .tourpackage-booking-button button:hover{
+    background-color: #0dcaf0;
+    color: white;
+ }
+
+ @media screen and (max-width:540px) {
+    .card{
+       margin-left: 0;
+    }
+
+    .card-container{
+        width:100%
+    }
+ }
+
+ @media screen and (min-width:768px) and (max-width:990px) {
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1300px) {
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0px auto;
+    }
+}
   

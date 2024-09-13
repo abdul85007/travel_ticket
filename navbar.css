@@ -684,21 +684,13 @@ nav ul li a:hover{
 
  @media screen and (min-width:768px) and (max-width:990px) {
     .card-container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         width: 100%;
-        margin: 0px auto;
     }
 }
 
 @media screen and (min-width:1024px) and (max-width:1300px) {
     .card-container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         width: 100%;
-        margin: 0px auto;
     }
 }
   

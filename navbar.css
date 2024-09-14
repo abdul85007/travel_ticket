@@ -622,33 +622,7 @@ nav ul li a:hover{
     object-fit:cover;
     margin-top: 10px;
     border-radius: 4px;
-  } 
-
-  /* @media screen and (max-width:500px) {
-            .grid-images{
-                max-width: 90%;
-            }
-
   }
-  
-  @media screen and (min-width:501px) and (max-width:700px) {
-        .grid-images{
-           max-width: 75%;
-        }
-
-        .explore-image {
-            padding-left: 0;
-        }
-
-        .explore-images-places h1{
-            font-size: 32px;
-        }
-
-        .explore-images-places h1 img{
-            width: 100px;
-            height: auto;
-        }
-} */
 
 @media screen and (max-width:499px){
     .grid-images{
@@ -660,6 +634,19 @@ nav ul li a:hover{
     .grid-images img{
         width: 100%;
         height: 240px;
+    }
+
+    .explore-image{
+        padding: 0;
+    }
+
+    .explore-images-places h1{
+        font-size: 26px;
+    }
+
+    .explore-images-places h1 img{
+        width: 80px;
+        height: auto;
     }
 
 }
@@ -871,6 +858,17 @@ nav ul li a:hover{
  }
 
  @media screen and (max-width:540px) {
+    .container-tourpackage h1{
+        text-align: center;
+        font-size:32px;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+
+    .container-tourpackage p{
+        font-size: 20px;
+    }
+
     .card{
        margin-left: 0;
     }

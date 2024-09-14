@@ -575,11 +575,9 @@ nav ul li a:hover{
   }
 
 
-  
-
   /* // about us css end // */
 
-
+ /* // explore destination css start // */
 
 .explore-images-places h1{
     text-align: center;
@@ -587,6 +585,12 @@ nav ul li a:hover{
     font-size: 40px;
     font-weight: 700;
   }
+
+  .explore-images-places h1 img{
+    width: 200px;
+    height: auto;
+  }
+
   .grid-images{
     display: flex;
     flex-wrap: wrap;
@@ -618,20 +622,72 @@ nav ul li a:hover{
     object-fit:cover;
     margin-top: 10px;
     border-radius: 4px;
-  }
+  } 
 
-  @media screen and (max-width:550px){}
-   
+  /* @media screen and (max-width:500px) {
+            .grid-images{
+                max-width: 90%;
+            }
+
+  }
   
-  
-  @media screen and (max-width:700px) {
+  @media screen and (min-width:501px) and (max-width:700px) {
         .grid-images{
-           max-width: 77%;
+           max-width: 75%;
         }
 
         .explore-image {
             padding-left: 0;
         }
+
+        .explore-images-places h1{
+            font-size: 32px;
+        }
+
+        .explore-images-places h1 img{
+            width: 100px;
+            height: auto;
+        }
+} */
+
+@media screen and (max-width:499px){
+    .grid-images{
+        max-width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .grid-images img{
+        width: 100%;
+        height: 240px;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:699px) {
+    .grid-images{
+        max-width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .grid-images img{
+        width: 100%;
+        height: 240px;
+    }
+
+    .explore-image{
+        padding-left: 0;
+    }
+
+    .explore-images-places h1{
+        font-size: 32px;
+    }
+
+    .explore-images-places h1 img{
+        width: 100px;
+        height: auto;
+    }
 }
   
   @media screen and (min-width:700px) and (max-width:980px) {
@@ -645,7 +701,6 @@ nav ul li a:hover{
         max-width: 90%;
       }
   }
-
 
   /* // explore-image css completed // */
 

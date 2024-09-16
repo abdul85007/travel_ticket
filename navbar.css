@@ -1090,6 +1090,7 @@ nav ul li a:hover{
 @media screen and (max-width:650px) {
     .parallax-content-section1{
         width: 85%;
+        margin-left: 30px;
     }
     .card-transparent-image-section2{
         flex-direction: column;
@@ -1097,7 +1098,7 @@ nav ul li a:hover{
 
     .parallax-content .parallax-content-section1 #parallax-content-section1-paragraph1{
         width: auto;
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .parallax-content .parallax-content-section1 #parallax-content-section1-paragraph2{

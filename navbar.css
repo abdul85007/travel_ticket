@@ -930,16 +930,25 @@ nav ul li a:hover{
     border-radius: 2px;
 }
 
-.parallax-content .parallax-content-section1 p{
+.parallax-content .parallax-content-section1 #parallax-content-section1-paragraph2{
     color: white;
     font-size: 16px;
     font-weight: 400;
     padding-top: 10px;
     line-height: 32px;
-    width: 550px;
+    width: 560px;
+    text-align: justify;
 }
 
-.parallax-content .parallax-content-section1 #parallax-content-section1-paragraph{
+.parallax-content-section1 h6{
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: justify;
+    width: 560px;
+}
+
+.parallax-content .parallax-content-section1 #parallax-content-section1-paragraph1{
     font-size: 36px;
     font-weight: 600;
     color: white;
@@ -963,7 +972,7 @@ nav ul li a:hover{
 .parallax-content-section1-contact #parallax-content-section1-contact-phone{
     background-color: white;
     color: white;
-    padding: 4px 12px;
+    padding: 8px 12px;
     border-radius: 50px;
     margin-bottom: 0;
     width: auto;
@@ -1009,7 +1018,8 @@ nav ul li a:hover{
 .card-transparent{
     background-color: transparent;
     border: 0.5px solid #ababab;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
     margin: 5px;
     border-radius: 4px;
@@ -1078,20 +1088,20 @@ nav ul li a:hover{
 }
 
 @media screen and (max-width:650px) {
+    .parallax-content-section1{
+        width: 85%;
+    }
     .card-transparent-image-section2{
         flex-direction: column;
     }
 
-    .parallax-content .parallax-content-section1 p{
+    .parallax-content .parallax-content-section1 #parallax-content-section1-paragraph1{
         width: auto;
-        text-align: justify;
+        font-size: 28px;
     }
 
-    .parallax-content .parallax-content-section1 #parallax-content-section1-paragraph{
+    .parallax-content .parallax-content-section1 #parallax-content-section1-paragraph2{
         width: auto;
-        text-align: left;
     }
-
-
 }
 

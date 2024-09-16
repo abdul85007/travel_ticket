@@ -694,9 +694,10 @@ nav ul li a:hover{
   /* // Tour package css start // */
 
   .container-tourpackage{
-    background-color: #f9f9f9;
     margin-top: 100px;
     padding-top: 20px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(rgba(249, 249, 249, 0.75), rgba(251, 251, 251, 0.5)), url("assets/img/tour-package bg.webp");
   }
 
   .container-tourpackage h1{
@@ -724,7 +725,8 @@ nav ul li a:hover{
 .card{
     margin-left: 40px;
     margin-top: 50px;
-    border: 1px solid #0dcaf0;
+    border: 1px solid #e1e1e1;
+    box-shadow: #e7e7e7 6px 6px 30px;
 }
 
 .card:hover{
@@ -739,7 +741,8 @@ nav ul li a:hover{
 .imageoverlay-container img{
     height: 250px;
     width: 100%;
-    border-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .imageoverlay-container img:hover{
@@ -1104,5 +1107,15 @@ nav ul li a:hover{
     .parallax-content .parallax-content-section1 #parallax-content-section1-paragraph2{
         width: auto;
     }
+}
+
+/* // parallax-content-css finish // */
+
+.travel-wesbite-testmonials{
+    margin-top: 50px;
+}
+
+.travel-wesbite-testmonials h1{
+    text-align: center;
 }
 

@@ -92,9 +92,6 @@ header{
 
 }
 
-
-
-
 /* navbar css portion */
 
 
@@ -104,6 +101,9 @@ nav{
     align-items: center;
     padding: 5px;
     position: sticky;
+    top: 0;
+    background-color: rgb(249, 249, 249);
+    z-index: 1;
 }
 
 .logo{
@@ -226,7 +226,7 @@ nav ul li a:hover{
     .display{
         background-color: black;
         position:fixed;
-        top: 162px;
+        top: 98px;
         padding-top: 20px;
         z-index: 0;
         right: 0;
@@ -280,7 +280,7 @@ nav ul li a:hover{
     .display{
         background-color: black;
         position:fixed;
-        top: 97px;
+        top: 98px;
         padding-top: 20px;
         z-index: 0;
         right: 0;
@@ -416,7 +416,7 @@ nav ul li a:hover{
   
   .choose-your-places{
     background-color:white;
-    padding: 20px;
+    padding: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 60%;
     margin:60px auto;
@@ -442,7 +442,6 @@ nav ul li a:hover{
     border-radius: 2px;
   }
   
-  
   @media screen and (max-width:900px) {
     .choose-your-places{
       width: 90%;
@@ -462,6 +461,7 @@ nav ul li a:hover{
 
     .input-container input{
         width: 100%;
+        margin: 0;
     }
   }
 
@@ -752,8 +752,7 @@ nav ul li a:hover{
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: black;
-    opacity: 40%;
+    background-color: hsla(0, 0%, 19%, 0.24);
     overflow: hidden;
     border-radius: 6px;
     width: 100%;
@@ -878,6 +877,12 @@ nav ul li a:hover{
     }
  }
 
+ @media screen and (max-width:767px) {
+    .card{
+        margin-left: 0;
+    }
+ }
+
  @media screen and (min-width:768px) and (max-width:990px) {
     .card-container{
         width: 100%;
@@ -891,3 +896,202 @@ nav ul li a:hover{
 }
   
 /* // Tour package css end // */
+
+/* // parallax effect css start // */
+.container-parallax-effect{
+    margin-top: 100px;
+}
+
+.background-image-parallax-effect{
+  background-image: linear-gradient(rgba(0, 0, 0, 75%), rgba(0, 0, 0, 0.5)), url("assets/img/nautre landscape.jpg");
+  width: 100%;
+  height: 650px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.parallax-content{
+    padding-top: 80px;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.parallax-content-section1 h5{
+    color: white;
+    background-color: #0dcaf0;
+    padding: 6px 10px;
+    width: fit-content;
+    border-radius: 2px;
+}
+
+.parallax-content .parallax-content-section1 p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    line-height: 32px;
+    width: 550px;
+}
+
+.parallax-content .parallax-content-section1 #parallax-content-section1-paragraph{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    line-height: 48px;
+    width: 560px;
+}
+
+.parallax-content .parallax-content-section1 h3{
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.parallax-content-section1-contact{
+    display: flex;
+    align-items: center;
+}
+
+.parallax-content-section1-contact #parallax-content-section1-contact-phone{
+    background-color: white;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 50px;
+    margin-bottom: 0;
+    width: auto;
+}
+
+.parallax-content-section1-contact p i{
+    color: #0dcaf0;
+}
+
+.parallax-content-section1-contact h4{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.parallax-content-section1-button{
+    margin-top: 30px;
+}
+
+.parallax-content-section1-button button{
+    background-color: transparent;
+    color: #0dcaf0;
+    border: 1px solid #0dcaf0;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 9px 20px;
+}
+
+.parallax-content-section1-button button:hover{
+    background-color: #0dcaf0;
+    color: white;
+    transition-delay: 6ms;
+}
+
+.card-transparent-image-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-transparent{
+    background-color: transparent;
+    border: 0.5px solid #ababab;
+    width: 300px;
+    height: auto;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.card-transparent .image-card-transparent{
+    padding: 20px 20px;
+    background-color: white;
+    /* opacity: 50%; */
+    border-radius: 50px;
+    width: fit-content;
+    margin: 20px auto;
+
+}
+
+.card-transparent .image-card-transparent img{
+    width: 50px;
+    height: auto;
+}
+
+.card-transparent h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-transparent p{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (min-width:768px) and (max-width:1250px) {
+
+    .background-image-parallax-effect{
+        height: 100%;
+        padding-bottom: 100px;
+    }
+    .parallax-content{
+        display: block;
+        width: 650px;
+        margin: 0px auto;
+    }
+    .parallax-content-section1{
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .background-image-parallax-effect{
+        height: 100%;
+        padding-bottom: 100px;
+    }
+    .parallax-content{
+        display: block;
+        margin: 0px auto;
+    }
+    .parallax-content-section1{
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .card-transparent-image-section2{
+        flex-direction: column;
+    }
+
+    .parallax-content .parallax-content-section1 p{
+        width: auto;
+        text-align: justify;
+    }
+
+    .parallax-content .parallax-content-section1 #parallax-content-section1-paragraph{
+        width: auto;
+        text-align: left;
+    }
+
+
+}
+

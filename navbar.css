@@ -1111,6 +1111,8 @@ nav ul li a:hover{
 
 /* // parallax-content-css finish // */
 
+/* // card testimonials review css start // */
+
 .travel-wesbite-testmonials{
     margin-top: 50px;
 }
@@ -1118,4 +1120,101 @@ nav ul li a:hover{
 .travel-wesbite-testmonials h1{
     text-align: center;
 }
+
+.travel-wesbite-testmonials h5{
+    text-align: center;
+}
+
+.card-testimonials{
+    width: 100%;
+    max-width: 1300px;
+    margin: 50px auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-testimonials .card-review{
+    width: 100%;
+    max-width: 25rem;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    box-shadow: #e7e7e7 6px 6px 30px;
+    border-radius: 4px;
+}
+
+.card-review .card-body-name-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-review-image-content{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+
+.card-testimonials .card-review img{
+    width: 60px;
+    height: auto;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.travelers-testimonials-cards{
+    background-color: white;
+    border: 1px solid #dddddd;
+    width: 100%;
+    max-width:400px
+}
+
+.card-review-datetime{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-review-datetime span i{
+    color: #0dcaf0;
+}
+
+.card-review-datetime h6{
+    margin: 0;
+    color: #0dcaf0;
+}
+
+
+@media screen and (min-width:850px) and (max-width:1200px) {
+
+         .card-testimonials .card-review{
+            margin: 10px;
+         }
+
+}
+
+@media screen and (max-width:850px) {
+        .card-testimonials{
+            flex-direction: column;
+        }
+
+        .card-review{
+            margin-top: 20px;
+        }
+}
+
+@media screen and (max-width:599px) {
+
+     .card-testimonials .card-review {
+        width: 100%;
+        max-width: 21rem;
+        padding: 20px;
+        border: 1px solid #e1e1e1;
+        box-shadow: #e7e7e7 6px 6px 30px;
+        border-radius: 4px;
+    }
+}
+
+/* // card testimonials review css finish // */
 

@@ -1397,9 +1397,15 @@ nav ul li a:hover{
 
 }
 
-@media screen and (min-width:576px) and (max-width:768px) {
+@media screen and (min-width:576px) and (max-width:767px) {
     .travel-website-newsletter-footer{
         height: 1100px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .travel-website-newsletter-footer{
+        height:600px;
     }
 }
 

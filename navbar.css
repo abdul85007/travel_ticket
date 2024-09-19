@@ -1239,7 +1239,7 @@ nav ul li a:hover{
 
     background-image: linear-gradient(rgba(0, 0, 0, 60%), rgba(0, 0, 0, 1.5)), url("assets/img/footer img1.jpg");
     width: 100%;
-    height: 500px;
+    height: 420px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1405,20 +1405,48 @@ nav ul li a:hover{
 
 @media screen and (min-width:768px) and (max-width:991px) {
     .travel-website-newsletter-footer{
-        height:600px;
+        height:660px;
     }
 }
 
 @media screen and (max-width:575px) {
     .travel-website-newsletter-footer{
-        height: 1250px;
+        height: 1270px;
     }
 }
 
 
 @media screen and (max-width:575px) {
-    .col-sm-12{
+    .travel-footer-col-sm-12{
         width: 85%;
         margin: 24px auto;
+    }
+}
+
+/* // copyright // */
+
+.copyright-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright-content p{
+    color: white;
+    margin: 0;
+}
+
+.copyright-content p span{
+    color: #0dcaf0;
+}
+
+@media screen and (max-width:576px){
+    .copyright-content{
+        display: block;
+    }
+
+    .copyright-content p{
+        text-align: center;
+        margin-top: 10px;
     }
 }

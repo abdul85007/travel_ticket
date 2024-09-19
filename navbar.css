@@ -226,7 +226,7 @@ nav ul li a:hover{
     .display{
         background-color: black;
         position:fixed;
-        top: 98px;
+        top: 97px;
         padding-top: 20px;
         z-index: 0;
         right: 0;
@@ -280,14 +280,14 @@ nav ul li a:hover{
     .display{
         background-color: black;
         position:fixed;
-        top: 98px;
+        top: 97px;
         padding-top: 20px;
         z-index: 0;
         right: 0;
         width: 70%;
         height: 100vh;
        
-        transition: transform .7s ease-in;
+        transition: transform .6s ease-in;
     }
 }
 
@@ -702,15 +702,23 @@ nav ul li a:hover{
 
   .container-tourpackage h1{
     text-align: center;
-    font-size:40px;
-    font-weight: 700;
+    font-size:18px;
+    font-weight: 600;
+    color: #0dcaf0;
     margin-top: 50px;
+  }
+
+  #container-tourpackage-paragraph1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 10px;
   }
 
   .container-tourpackage p{
     text-align: center;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
     margin-top: 20px;
   }
 
@@ -1095,6 +1103,7 @@ nav ul li a:hover{
         width: 85%;
         margin-left: 30px;
     }
+
     .card-transparent-image-section2{
         flex-direction: column;
     }
@@ -1114,7 +1123,15 @@ nav ul li a:hover{
 /* // card testimonials review css start // */
 
 .travel-wesbite-testmonials{
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.travel-wesbite-testmonials h6{
+    color: #0dcaf0;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
 }
 
 .travel-wesbite-testmonials h1{
@@ -1218,3 +1235,161 @@ nav ul li a:hover{
 
 /* // card testimonials review css finish // */
 
+.travel-website-newsletter-footer{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 60%), rgba(0, 0, 0, 1.5)), url("assets/img/footer img1.jpg");
+    width: 100%;
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.travel-website-newsletter-footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.travel-website-footer1{
+    margin-top: 10px;
+}
+
+.travel-website-footer1 h3{
+    color: white;
+    margin: 0;
+}
+
+.travel-website-footer1 p{
+    color: white;
+}
+
+.travel-website-footer1 .travel-website-footer-icons{
+    margin-top: 30px;
+}
+
+.travel-website-footer1 .travel-website-footer-icons span{
+    background-color: white;
+    color: #0dcaf0;
+    padding: 10px 12px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+.travel-website-footer1 .travel-website-footer-icons span:hover{
+    background-color: #0dcaf0;
+    color: white;
+}
+
+/* // footer2 // */
+
+.travel-website-footer2{
+    margin-top: 40px;
+}
+
+.travel-website-footer2 h4{
+    color:#0dcaf0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.travel-website-footer-company-contact{
+    margin-top: 35px;
+}
+
+.travel-website-footer-company-contact ul{
+    margin-left: -30px;
+}
+
+.travel-website-footer-company-contact ul li{
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+}
+
+.travel-website-footer-company-contact i{
+    color: #0dcaf0;
+}
+
+.travel-website-footer-company-contact p{
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: white;
+
+}
+
+/* // footer 3 // */
+
+.travel-website-footer3{
+    margin-top: 40px;
+}
+
+.travel-website-footer3 h4{
+    color: #0dcaf0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.company-useful-links ul{
+    color: white;
+    margin-left: -30px;
+    margin-top: 35px;
+}
+
+.company-useful-links ul li{
+    margin-top: 10px;
+}
+
+.company-useful-links ul li i{
+    margin-right: 10px;
+}
+
+/* // footer4 // */
+
+.travel-website-footer4{
+    margin-top: 40px;
+}
+
+.travel-website-footer4 h4{
+    color:#0dcaf0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.travel-website-footer4 p{
+    color: white;
+    margin-bottom: 0;
+    margin-top: 35px;
+}
+
+.input-newsletter-subscribe{
+    margin-top: 20px;
+}
+
+.input-newsletter-subscribe input{
+  width: 100%;
+  max-width: 250px;
+  padding: 10px 10px;
+  border-radius: 2px;
+  border: 1px solid #0dcaf0;
+  margin-bottom: 20px;
+  background-color: transparent;
+  box-shadow: rgba(237, 237, 237, 40%) 0px 5px 15px;
+}
+
+.input-newsletter-subscribe input:hover{
+    background-color: white;
+}
+
+.input-newsletter-subscribe button{
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 10px;
+    background-color: #0dcaf0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}

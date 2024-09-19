@@ -1239,7 +1239,7 @@ nav ul li a:hover{
 
     background-image: linear-gradient(rgba(0, 0, 0, 60%), rgba(0, 0, 0, 1.5)), url("assets/img/footer img1.jpg");
     width: 100%;
-    height: 650px;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1251,6 +1251,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 30px
 }
 
 .travel-website-footer1{
@@ -1264,6 +1265,8 @@ nav ul li a:hover{
 
 .travel-website-footer1 p{
     color: white;
+    width: 100%;
+    max-width: 300px;
 }
 
 .travel-website-footer1 .travel-website-footer-icons{
@@ -1392,4 +1395,24 @@ nav ul li a:hover{
     border: none;
     border-radius: 4px;
 
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .travel-website-newsletter-footer{
+        height: 1100px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .travel-website-newsletter-footer{
+        height: 1250px;
+    }
+}
+
+
+@media screen and (max-width:575px) {
+    .col-sm-12{
+        width: 85%;
+        margin: 24px auto;
+    }
 }

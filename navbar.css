@@ -1065,6 +1065,11 @@ nav ul li a:hover{
     color: white;
 }
 
+.card-transparent:hover{
+   background-color:#0dcaf0;
+   transition: .4s ease-in-out;
+}
+
 @media screen and (min-width:768px) and (max-width:1250px) {
 
     .background-image-parallax-effect{
@@ -1159,6 +1164,11 @@ nav ul li a:hover{
     border: 1px solid #e1e1e1;
     box-shadow: #e7e7e7 6px 6px 30px;
     border-radius: 4px;
+}
+
+.card-testimonials .card-review:hover{
+    border: 1px solid #0dcaf0;
+    transition: .3s ease-in;
 }
 
 .card-review .card-body-name-content{
